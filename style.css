@@ -1,0 +1,30 @@
+body{
+    background-repeat:no-repeat;
+    background-image: url("Background.jpeg");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    color: beige;
+}
+.weatherWrapper{
+    margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#locationTimezone{
+    font-size: 60px;
+    color: beige;
+    font-stretch: extra-condensed;
+}
+.nextWeatherDetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 1px;
+
+}
